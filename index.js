@@ -18,4 +18,12 @@ var user = addId({
     name: 'John',
     age: 30,
 });
-console.log(addId.name);
+user.age = 30;
+var response1 = {
+    status: 200,
+    position: 'New York',
+    data: {
+        name: 'John',
+        age: 30,
+    },
+};
